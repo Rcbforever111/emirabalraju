@@ -403,19 +403,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
-        buttons = [[
-            InlineKeyboardButton('➕ You can add out bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ],[
-             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+        buttons = [
+            
+
+        InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TMAMovies'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TMAAdda'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://telegram.me/tmasupportbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
