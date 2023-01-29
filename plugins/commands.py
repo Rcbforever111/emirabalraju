@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://Tmaadda.rpy.club/g/ocU5Sv5Zgo')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://telegram.me/tmasupportbot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -99,7 +99,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://Tmaadda.rpy.club/g/ocU5Sv5Zgo')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://telegram.me/tmasupportbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
