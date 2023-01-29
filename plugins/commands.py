@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "💲 Get Access", url='https://Tmaadda.rpy.club/g/ocU5Sv5Zgo' #invite_link.invite_link
+                    "💲 Get Access", url='https://telegram.me/tmasupportbot' #invite_link.invite_link
                 )
             ]
         ]
